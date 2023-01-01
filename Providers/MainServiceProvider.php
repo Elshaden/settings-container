@@ -2,7 +2,7 @@
 
 namespace App\Containers\Vendor\Settings\Providers;
 
-use App\Ship\Parents\Providers\MainProvider;
+use Apiato\Core\Abstracts\Providers\MainServiceProvider as AbstractMainServiceProvider;
 
 /**
  * Class MainServiceProvider.
@@ -11,7 +11,7 @@ use App\Ship\Parents\Providers\MainProvider;
  *
  * @author  Mahmoud Zalt <mahmoud@zalt.me>
  */
-class MainServiceProvider extends MainProvider
+class MainServiceProvider extends AbstractMainServiceProvider
 {
     /**
      * Container Service Providers.
